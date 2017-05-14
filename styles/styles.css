@@ -1,0 +1,780 @@
+/*Estilos global*/
+*{	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;}
+
+html{background: #fff;}
+
+h1{	font-family: 'EB Garamond', serif;
+	font-size: 52px;
+	color: #000;
+	float: left;
+	margin-left: 150px;}
+
+h2{	font-family: 'Source Code Pro', monospace;
+	font-size: 1em;}
+
+h3 {padding-bottom: 10px;
+	padding-top: 5px;
+
+}
+
+body{background: #fff;
+	margin: 0px auto;}
+
+/*Estilos para Escritorio*/
+@media only screen and (min-width:769px) {  
+
+body{	width: 900px;
+		height: 1024px;}
+
+		.menu_bar {display: none}
+
+header{
+	width: 900px;
+	height: 140px;
+	background: #fff;
+	border-bottom: 1px #000 solid;
+	padding: 0px auto;}
+
+#logo{
+	padding-bottom: 10px;
+	float: right;}
+
+
+#fecha{
+	margin-top: 70px;
+	margin-left: 300px;}
+
+nav{width: 100%;
+	height: 53px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+.navs {font-family: 'Flamenco', cursive;
+	font-size: 17px;
+	width: 128px;
+	height: 24px;
+	background: #fff;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	margin-top: 7px;}
+
+a:hover{
+	background: #A4A4A4;}
+
+ul{ list-style-type: none;}
+
+li{ float: left;}
+
+.box{height: 900px;
+	float: left;
+	border-right :1px #A4A4A4 solid;}
+
+#izq{	
+	width: 359px;
+	background: #fff;}
+
+.titulares {font-family: 'Flamenco', cursive;
+	font-size: 25px;	
+	padding-top: 5px;}
+
+
+.titlink {text-decoration: none;
+		  color: #000;
+		  margin-top: 11px;}
+
+a:hover{
+	background: #A4A4A4;}
+
+	h3:hover{background: #A4A4A4;}
+
+
+#parrafoudea {font-family: 'PT Mono', monospace;
+	font-size: 17px;
+	text-align: justify;
+	padding-top: 9px;
+	padding-right: 9px;
+	padding-bottom: 14px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+
+
+
+ #imudea{ padding-top: 5px;}
+
+#imjuco{padding-top: 1px;
+
+		padding-right: 5px;}
+ 
+ #parrafojuco { font-family: 'PT Mono', monospace;
+				font-size: 15px;
+				text-align: justify;
+				padding-top: 9px;
+				padding-right: 9px;
+				padding-bottom: 14px;
+				border-bottom: 1px #A4A4A4 solid;}
+
+	#titcar{text-align: right;
+			padding-right: 10px;}
+
+		#imcar{float: left;}
+
+
+#parrafocarnaval{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-bottom: 30px;}
+
+#centro{	width: 269px;
+			background: #fff;}
+
+#imtrece{padding-top: 65px;
+		 padding-left: 5px;}
+
+#tittrece{padding-left: 8px;}
+
+#parrafotrece{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+
+	#imbaul{padding-top: 65px;
+			padding-left: 5px;}
+
+	#titbaul{padding-left: 5px;}
+
+
+	#parrafobaul{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-left: 5px;
+	padding-bottom: 10px;}
+
+#der{	
+	width: 269px;
+	background: #fff;}
+
+
+footer{
+	width: 100%;
+	height:150px;
+	border-top: 1px #A4A4A4 solid; 
+	background: #fff;
+	float: left;}
+
+
+	#banner {padding-top: 300px;
+			 padding-left: 30px;}
+
+#logofooter{margin-top: 5px;
+			float-left;
+			margin-left: 700px;
+			margin-bottom: 5px;}
+
+
+.lifooter{float: right;}
+
+
+#face{
+	margin-left: 5px;
+	margin-top: 50px;
+	float: left;}
+
+#twitter {margin-left: 20px;
+		  margin-top: 50px;
+		  float: left;}
+
+#youtube{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;}
+
+#pinterest{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;}
+
+#cm{
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+	margin-left: 5px;
+	color: #000;}
+
+#correo{
+	font-size: 10px;
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+}
+
+.navspe{	font-family: 'Flamenco', cursive;
+	font-size: 10px;
+	width: 70px;
+	height: 10px;
+	background: #fff;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	float: left;	
+}
+#nombres{
+margin-left: 800px;
+	font-size: 10px;}
+
+}
+
+/*Estilos para tableta*/
+
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+
+body{  min-width: 460px;
+	max-width: 768px;
+		padding-top: 80px;
+		padding-right: 10px;
+		padding-left: 10px;}	
+
+header{
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	border-bottom: 1px #fff solid;
+	padding: 0px auto;}
+
+	.menu_bar{display: block;
+			width: 90%;
+			height: 69px;
+			top:0;
+			background: #fff;
+			float: left;
+	}
+
+	.bt-menu {display: block;
+		padding:20px;
+		overflow: hidden; 
+		background: #fff;
+		font-family: 'Flamenco', cursive;
+		font-size: 25px;
+		text-decoration: none;	}
+
+	.menu_bar span {float right:
+	 }
+
+
+
+#logo{
+	padding-bottom: 10px;
+	float: left;}
+
+h1{
+	font-family: 'EB Garamond', serif;
+	font-size: 52px;
+	color: #000;
+	float: left;
+	margin-left: 150px;
+	}
+
+
+h2{	font-family: 'Source Code Pro', monospace;
+	font-size: 1em;
+	}
+
+
+
+#fecha{
+	margin-top: 180px;
+	margin-left: 280px;
+}
+
+nav{font-family: 'Flamenco', cursive;
+	font-size: 17px;
+
+	width: 80%;
+	position: fixed;
+	right: 100%;
+	margin: 0;
+	overflow: scroll;
+	}
+
+
+	
+
+
+ul{ list-style-type: none;}
+
+li{display: block;
+	background: pink;
+border-bottom: 1px solid #fff;}
+
+.box{height: 900px;
+	float: left;
+border-right :1px #A4A4A4 solid;}
+
+#izq{	
+	width: 45%;
+	margin-left: 5px;
+	background: #fff;
+	}
+
+.titulares {font-family: 'Flamenco', cursive;
+	font-size: 25px;
+	
+	padding-top: 5px;}
+
+
+.titlink {text-decoration: none;
+	color: #000;
+	margin-top: 11px;
+	}
+
+ 
+a {display: block;}
+a:hover{
+	background: #A4A4A4;}
+
+	h3:hover{background: #A4A4A4;
+		}
+
+
+#parrafoudea {font-family: 'PT Mono', monospace;
+	font-size: 17px;
+	text-align: justify;
+	padding-top: 9px;
+	padding-right: 9px;
+	padding-bottom: 14px;
+	border-bottom: 1px #A4A4A4 solid; }
+
+
+
+
+ #imudea{ padding-top: 5px;
+				}
+
+#imjuco{padding-top: 1px;
+
+		padding-right: 5px;}
+ 
+ #parrafojuco {
+  
+ 	font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 9px;
+	padding-right: 9px;
+	padding-bottom: 14px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+	#titcar{text-align: right;
+		padding-right: 10px;}
+
+		#imcar{float: left;}
+
+
+#parrafocarnaval{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-bottom: 30px;
+	}
+
+#centro{	
+	width: 45%;
+	height: 1020px;
+	margin-left: 5px;
+	background: #fff;}
+
+#imtrece{
+	padding-top: 65px;
+	padding-left: 5px;
+}
+#tittrece{padding-left: 8px;}
+
+#parrafotrece{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+
+	#imbaul{padding-top: 65px;
+			padding-left: 5px;}
+
+	#titbaul{padding-left: 5px;}
+
+
+	#parrafobaul{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	}
+
+#der{	
+	border-top: 1px #A4A4A4 solid;
+	width: 90%;
+	height: 400px;
+	background: #fff;}
+
+#banner {padding-top: 30px;
+		padding-left: 200px;
+		padding-right: 20px;}
+
+footer{
+	width:90%;
+	height:150px;
+	border-top: 1px #A4A4A4 solid; 
+	background: #fff;
+	float: left;}
+
+
+
+#logofooter{margin-top: 5px;
+	float-left;
+	margin-left: 300px;
+	margin-bottom: 5px;
+			}
+
+
+.lifooter{float: right;
+			}
+
+
+#face{
+	margin-left: 5px;
+	margin-top: 50px;
+	float: left;
+}
+#twitter {margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+
+#youtube{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+#pinterest{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+
+#cm{
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+	margin-left: 5px;
+	color: #000;
+	}
+
+#correo{
+	font-size: 10px;
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+}
+
+.navspe{	font-family: 'Flamenco', cursive;
+	font-size: 10px;
+	width: 70px;
+	height: 10px;
+	background: #fff;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	float: left;	
+}
+#nombres{
+margin-left: 200px;
+	font-size: 10px;
+float: left;}
+
+}
+
+/*Estilos para celular*/
+
+@media only screen and (max-width:480px) {
+body{  min-width: 360px;}	
+
+	header{
+	width: 100%;
+	height: 140px;
+	background: #fff;
+	border-bottom: 1px #fff solid;
+	padding: 0px auto;}
+
+	.menu_bar{display: block;
+			width: 100%;
+			height: 69px;
+			top:0;
+			background: #fff;
+			float: left;
+		}
+
+	.bt-menu {display: block;
+		padding:20px;
+		overflow: hidden; 
+		font-family: 'Flamenco', cursive;
+		font-size: 25px;
+		text-decoration: none;
+	
+	}
+
+	.menu_bar span {float right: }
+
+
+
+#logo{
+	padding-bottom: 10px;
+	float: left;}
+
+h1{
+	font-family: 'EB Garamond', serif;
+	font-size: 52px;
+	color: #000;
+	float: left;
+	margin-left: 150px;
+	}
+
+
+h2{	font-family: 'Source Code Pro', monospace;
+	font-size: 1em;
+	}
+
+#fecha{
+	margin-top: 180px;
+	margin-left: 150px;
+}
+
+nav{font-family: 'Flamenco', cursive;
+	font-size: 17px;
+
+	width: 80%;
+		position: fixed;
+		right: 100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+
+
+ul{ list-style-type: none;}
+
+li{display: block;
+	background: pink;
+border-bottom: 1px solid #fff;}
+
+.box{height: 900px;
+	float: left;
+border-right :1px #A4A4A4 solid;}
+
+#izq{	
+	width: 90%;
+	background: #fff;
+	}
+
+.titulares {font-family: 'Flamenco', cursive;
+	font-size: 25px;
+	
+	padding-top: 5px;}
+
+
+.titlink {text-decoration: none;
+	color: #000;
+	margin-top: 11px;
+	}
+
+ 
+a {display: block;}
+a:hover{
+	background: #A4A4A4;}
+
+	h3:hover{background: #A4A4A4;
+		}
+
+
+#parrafoudea {font-family: 'PT Mono', monospace;
+	font-size: 17px;
+	text-align: justify;
+	padding-top: 9px;
+	padding-right: 9px;
+	padding-bottom: 14px;
+	border-bottom: 1px #A4A4A4 solid; }
+
+
+
+
+ 		#imudea{ padding-top: 5px;
+				}
+
+#imjuco{padding-top: 1px;
+
+		padding-right: 5px;}
+ 
+ #parrafojuco {
+  
+ 	font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 9px;
+	padding-right: 9px;
+	padding-bottom: 14px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+	#titcar{text-align: right;
+		padding-right: 10px;}
+
+		#imcar{float: left;}
+
+
+#parrafocarnaval{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-bottom: 30px;
+	border-bottom: 1px #A4A4A4 solid;
+	}
+
+#centro{	
+	width: 90%;
+	background: #fff;}
+
+#imtrece{
+	padding-top: 65px;
+	padding-left: 5px;
+}
+#tittrece{padding-left: 8px;}
+
+#parrafotrece{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px #A4A4A4 solid;}
+
+
+	#imbaul{padding-top: 65px;
+			padding-left: 5px;}
+
+	#titbaul{padding-left: 5px;}
+
+
+	#parrafobaul{font-family: 'PT Mono', monospace;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 6px;
+	padding-right: 9px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	}
+
+
+#der{	
+	border-top: 1px #A4A4A4 solid;
+	width: 90%;
+	height: 400px;
+	background: #fff;}
+
+#banner {padding-top: 30px;
+		padding-left: 100px;
+		padding-right: 20px;}
+
+
+footer{
+	width: 90%;
+	height:150px;
+	border-top: 1px #A4A4A4 solid; 
+	background: #fff;
+	float: left;}
+
+
+#logofooter{margin-top: 5px;
+	float-left;
+	margin-left: 70px;
+	margin-bottom: 5px;
+			}
+
+
+.lifooter{float: right;
+			}
+
+
+#face{
+	margin-left: 5px;
+	margin-top: 50px;
+	float: left;
+}
+#twitter {margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+
+#youtube{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+#pinterest{
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+
+#cm{
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+	margin-left: 5px;
+	color: #000;
+	}
+
+#correo{
+	font-size: 10px;
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+}
+
+.navspe{	font-family: 'Flamenco', cursive;
+	font-size: 10px;
+	width: 70px;
+	height: 10px;
+	background: #fff;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	float: left;	
+}
+#nombres{
+margin-left: 100px;
+	font-size: 10px;
+}
+
+}
+
